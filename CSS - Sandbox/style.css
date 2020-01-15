@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+    font-size: 14px;
+    color: #fff;
+    font-family: consolas;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: left;
+    color: #111;
+}
+
+.container {
+    background-color: #555;
+    padding: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/***** Transform *****/
+.trans {
+    height: 150px;
+    width: 150px;
+}
+
+.trans-1 {
+    background-color: orangered;
+
+    transform: translate(10%, 20%);
+}
+
+.trans-2 {
+    background-color: royalblue;
+
+    transform: rotate(45deg);
+}
+
+.trans-3 {
+    background-color: seagreen;
+
+    transform: scale(.5);
+}
+
+.trans-4 {
+    background-color: burlywood;
+
+    transform: skew(10deg, 10deg);
+}
+
+/***** Filter *****/
+.image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.image-1 { filter: blur(2px); }
+.image-2 { filter: brightness(50%); }
+.image-3 { filter: contrast(200%); }
+.image-4 { filter: opacity(.5); }
+.image-5 { filter: grayscale(50%); }
+.image-6 { filter: invert(1); }
+.image-7 { filter: saturate(20); }
+.image-8 { filter: sepia(20); }
+
+/***** Background Blend Mode *****/
+.bbm {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to right, orangered, yellow), url(img.jpg);
+    background-size: cover;
+}
+
+.bbm-1 { background-blend-mode: multiply; }
+.bbm-2 { background-blend-mode: screen; }
+.bbm-3 { background-blend-mode: overlay; }
+.bbm-4 { background-blend-mode: luminosity; }
+
+/***** Clip-Path *****/
+.cp {
+    width: 150px;
+    height: 150px;
+}
+
+.cp-1 {
+    background-color: darkorange;
+
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.cp-2 {
+    background-color: deeppink;
+
+    clip-path: polygon(0 40%, 50% 0, 100% 40%, 80% 100%, 20% 100%);
+}
+
+.cp-3 {
+    background-color: gold;
+
+    clip-path: polygon(0 20%, 20% 0, 80% 0, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0 80%);
+}
+
+.cp-4 {
+    background-color: tomato;
+
+    clip-path: circle(50% at 50% 0);
+}
+
+.cp-5 {
+    background-color: palegreen;
+
+    clip-path: ellipse(100% 100% at 0 30%);
+}
+
+.cp-image {
+    height: 400px;
+    width: auto;
+    margin: 100px auto 0 auto;
+
+    clip-path: inset(20% 50% 50% 18%);
+}
