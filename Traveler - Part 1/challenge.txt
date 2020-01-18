@@ -1,0 +1,7 @@
+### Challenge-1 ###
+Design the About Section of Traveler project using the basics of HTML and CSS.
+
+- You can find the About Section design image using the following location: assets/img/About-Section-Image.png
+- For getting the content and icons name use the following file: data.txt
+
+Good Luck😃
