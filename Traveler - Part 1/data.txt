@@ -1,0 +1,24 @@
+Font family: "Titillium Web", sans-serif.
+
+Color Primary: #2F80ED;
+Color Primary Light: #56CCF2;
+
+--------------------------------------------------------------
+### About Section Data ###
+
+Heading:        Who We Are
+
+Paragraph-1:    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Fuga, dolores eum consequuntur natus elit beatae consectetur magni 
+                architecto consequatur incidunt ipsam?
+
+Paragraph-2:    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, 
+                dolores eum consequuntur natus beatae consectetur magni architecto 
+                consequatur incidunt ipsam? Quia quos tempore necessitatibus est, 
+                omnis harum neque eligendi suscipit.
+
+Button:         MORE 
+Button Icon:    fas fa-arrow-circle-right
+
+About Icon:     fas fa-globe-europe
+--------------------------------------------------------------

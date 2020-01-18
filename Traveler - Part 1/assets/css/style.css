@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 16px;
+    color: #777;
+}
+
+.header {
+    background-image: linear-gradient(to top right, rgba(47, 129, 237, 0.8), rgba(86, 203, 242, 0.8)), url(../img/Background-Header.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position:  center;
+    padding: 50px 120px;
+
+    clip-path: ellipse(100% 100% at 30% 0);
+}
+
+.navbar {
+    color: #fff;
+}
+
+.navbar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.navbar__logo {
+    font-size: 50px;
+    float: left;
+}
+
+.navbar__list {
+    list-style: none;
+    float: right;
+}
+
+.navbar__item {
+    display: inline-block;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.navbar__item:last-child { padding-right: 0; }
+
+.navbar__icon {
+    display: block;
+}
+
+.navbar__link {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.header__textarea {
+    width: 50%;
+    color: #fff;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.heading {
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.header__text {
+    margin-bottom: 80px;
+}
+
+.btn {
+    color: currentColor;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn__icon {
+    margin-left: 10px;
+}
